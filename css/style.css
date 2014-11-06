@@ -1,5 +1,49 @@
-textarea{
-	resize:vertical;
-	min-height:200px;
+div.carousel-img{
+	height: 300px;
+	width: 700px;
 
+}
+
+body{
+
+	background-image: url(../img/fondo_v1.jpg);
+}
+
+div.header{
+	background-color: white;
+}
+
+div.white{
+	background-color: white;
+}
+
+ul.main-menu{
+	display: block;
+	float: left;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+li.main-menu-item{
+	float: left;
+	display: moz-inline-box;
+	display: inline-block;
+	padding: 3px 0 0;
+	position: relative;
+	height: 48px;
+	width: 120px;
+}
+
+a.menu-link{
+	width: 100px;
+}
+
+img.header{
+	margin-top: 20px;
 }
